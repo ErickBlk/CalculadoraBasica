@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+    font: normal 25pt arial bolder;
+}
+.bx{
+    font: normal 15pt arial;
+    height: 50px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 30px;
+    background: rgb(255, 254, 196);
+}
+.bx:active{
+    transform: scale(0.98);
+    /* efeito de zoom no box o tamanho e definido por vc moleque */
+    box-shadow: 3px 2px 2px 1px rgba(44, 43, 43, 0.24);
+    /* sombra na caixinha
+      o primeiro e a distancia para direira o segundo para baixo p 
+      terceito e profundidade e o quarto e opacidade/denssidade 
+      a cor e a cor da sombra */
+}
+.bx2{
+    font: normal 15pt arial;
+    height: 50px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 30px;
+    background: rgb(255, 254, 196);
+}
+.bx2:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.btn {
+  
+    text-decoration: none;
+    border: none;
+    padding: 12px 40px;
+    font-size: 16px;
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+}
+
+.btn:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+div{
+    font: normal 20pt arial;
+    margin-top: 20px;
+}
+
+#caixinha{
+    border: 10px;
+    height: 350px;          
+    border-radius: 20px;
+    border-style: ridge;
+    box-shadow: 5px 6px 5px 1px rgba(0, 0, 0, 0.479);
+}
